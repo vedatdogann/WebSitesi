@@ -1,0 +1,565 @@
+body{
+    background: #fff;
+    color:#3f3f3f;
+    font: 14px / 28px arial;
+    font-family: 'Raleway';
+     
+}
+
+h1{
+    font-size: 52px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    
+}
+.sectionHeader{
+    background: #550D16;
+    border-botton: 6px solid #000;
+    height: 60px;
+    color: #fff;
+    display: inline-block;
+    line-height: 60px;
+    font-size: 24px;
+    padding: 5px 40px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    
+   
+}
+.sectionArea{
+    padding: 80px 0;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.featuresBody .container{
+    justify-content: space-between;
+    
+}
+
+.col3{
+    flex-grow: 1;
+    width: 33.33%;
+    
+}
+
+
+header .logo{
+    margin-right: auto;
+}
+ 
+header .logo img{
+    display: block;
+    height: 70px;
+    
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a{
+    padding: 27px 17px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #333;
+    transition: all .5s ease;
+}
+
+.menu li:last-child a{
+    padding-right: 0;
+    
+}
+
+.menu li:hover a{
+    background: #500D16;
+    color: #fff;
+    
+}
+
+
+#mainSlider{
+    height: 500px;
+    background: url('../img/genelistanbul.jpg') center center no-repeat;
+    background-size: cover;
+    
+}
+
+.slider{
+    width: 100%;
+    
+}
+
+#mainCaption{
+    height: 500px;
+    background: rgba(0,0,0, .3);
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    
+}
+
+.featuresTop{
+    text-align: center;
+}
+
+.zoom{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.zoom img{
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: all .5s ease;
+    
+}
+ 
+.item .itemText{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #500D16;
+}
+
+.item{
+    padding: 10px 20px;
+}
+
+
+.item:hover .zoom img{
+    transform: scale(1.25);
+    
+}
+ 
+
+h3{
+    font-size: 16px;
+    color: #500D16;
+    font-weight: bold;
+}
+
+.item:hover h3{
+    color: #fff;
+    
+}
+
+
+.item:hover .itemText{
+    background: #500D16;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.btnDetails{
+    color: #500D16;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #500d16;
+    transition: all .5s ease;
+    
+    
+}
+
+.item:hover .btnDetails{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+.itemText p{
+    margin: 20px 0;
+    
+}
+
+footer{
+     background: #500d16;
+    text-align: center;
+}
+
+.footerItem{
+    padding: 20px;
+}
+
+footer h3{
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    
+}
+
+
+footer p{
+    color: #95a5a6;
+    line-height: 20px;
+}
+
+
+
+
+.footerLinks a{
+    text-decoration: none;
+    color: #95a5a6;
+    letter-spacing: 2px;
+    transition: .3s ease;
+    
+}
+
+
+.footerLinks a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+
+
+#hakkimdaSlider{
+    height: 500px;
+    background: url('../img/hakkimda2.jpeg') center center no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+#hakkimdaCaption{
+    height: 300px;
+    background: rgba(0,0,0, .2);
+}
+
+.slider{
+    width: 100%;
+}
+
+#inspect{
+    background-color: #f5f5f5;
+}
+
+
+.inspectTop{
+    text-align: center;
+    
+}
+
+
+.inspectBody .col2{
+    display: flex;
+}
+
+
+.inspectImage{
+    width: 40%;
+}
+
+
+.inspectImage img{
+    width: 100%;
+    height: auto;
+}
+
+
+.inspectText{
+    width: 60%;
+    padding-left: 10px;
+}
+
+
+
+.date{
+    color: #333;
+    font-size: 12px;font-style: italic;
+}
+
+
+
+h4{
+     color: #550d16;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+.inspectText a{
+    float: right;
+    text-decoration: none;
+    color: #550d16;
+}
+
+
+.inspectText a:hover{
+    text-decoration: underline;
+}
+
+
+#ozgecmisSlider{
+    height: 500px;
+    background: url('../img/ozgecmis.jpeg') center center no-repeat;
+    background-size: cover;
+    
+}
+
+
+#ozgecmisCaption{
+    height: 300px;
+    background: rgba(0,0,0, .1);
+}
+
+
+
+.resimSlider{
+    height: 600px;
+}
+
+
+
+
+.contactTop{
+    text-align: center;
+}
+
+
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+.contactForm{
+    margin: 0 auto;
+    width: 60%;
+    
+}
+
+
+.formItem{
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+
+.formShape{
+    color: #fff;
+    float: left;
+    background: #500d16;
+    padding: 8px;
+    width: 8%;
+    text-align: center;
+    
+}
+
+
+.formField{
+    color: #fff;
+    background: #500d16;
+    border: none;
+    padding: 15.5px;
+    width: 91.9%;
+    display: block;
+    font-size: 14px;
+}
+
+
+
+.formBtn{
+    display: block;
+    border: none;
+    background: #500d16;
+    color: #fff;
+    padding: 12px 25px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+
+
+.formBtn:hover{
+    background:#841916;
+}
+
+
+
+@media screen and (max-width: 960px){
+    .caption h1 {
+        color: red;
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+    footer .fa{
+        font-size: 24px;
+    }
+    footer h3{
+        font-size: 16px;
+    }
+    
+    .inspectBody .container{
+        flex-direction: column;
+        
+    }
+    
+    .inspectBody container .col2{
+        width: 100%;
+    }
+   
+    
+}
+
+
+@media screen and (max-width: 720px){
+    
+     .caption h1 {
+        color: blue;
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+    
+    header .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    header .logo{
+        margin: 0 auto;
+        
+    }
+    
+    .featuresBody .container .col3{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
