@@ -9,10 +9,5 @@ HTML
 CSS
 PHP
 
-## Ekran Görüntüleri
-
-## Katkıda Bulunma
-Bu proje hakkında geri bildirimde bulunmak veya katkıda bulunmak isterseniz benimle iletişime geçiniz.
-
 Lisans
 Bu proje MIT Lisansı altında lisanslanmıştır. 
